@@ -1,0 +1,168 @@
+body {
+	background-color: #FF9900;
+	margin: 0;
+	padding: 0;
+	height: 5000px;
+}
+
+.container {
+	margin-top: 50px;
+	position: sticky;
+	top: 0;
+}
+
+.header {
+	background-color: rgb(238, 236, 236);
+	height: 28px;
+}
+.header > ul > li  .pay-icon:hover{
+	color:rgb(0, 153, 255);
+}
+ .header > ul > .logo-text >a{
+	color: rgb(27, 27, 27);
+	font-weight: 600;
+	letter-spacing: -0.8px;
+}
+.header>ul>.logo-text>a > i{
+	color: #FF9900;
+	font-size: 10px;
+}
+.header>ul {
+	padding: 5px;
+	list-style-type: none;
+	display: flex;
+	justify-content: center;
+}
+
+.header>ul>li>a {
+	color: rgb(192, 188, 188);
+	text-decoration: none;
+	padding: 10px;
+	font-size: 14px;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 400;
+}
+
+.header>ul>li>a:hover {
+	color: #FF9900;
+}
+
+.main-menu {
+	background-color: white;
+	display: grid;
+	grid-template-columns: 0.7fr 1.5fr 1fr;
+	height: 80px;
+}
+
+.logo {
+	margin-left: 50px;
+	margin-top: px;
+}
+
+.main-menu>ul {
+	padding: 0;
+	margin-top: px;
+	list-style-type: none;
+	padding-right: 20px;
+
+}
+.drop-down{
+	display: flex;
+	margin-top: 9px;
+}
+
+.account-drop-down{
+	display: none;
+	background-color: white;
+	width: 140%;
+	margin-left: -30px;
+	text-align: start;
+	border: none;
+	border-radius: 7px;
+	margin-top: 20px;
+}
+
+.drop-down > li:hover .account-drop-down{
+	display: block;
+} 
+.account-drop-down  li{
+	list-style: none;
+	text-align: start;
+	padding: 10px;
+	margin-left: -19px;
+}
+.account-drop-down > li >a{
+	color: rgb(53, 52, 52);
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	font-weight: 500;
+	font-size: 15px;
+}
+.account-drop-down button:hover {
+	background-color: #f3a32c;
+}
+.account-drop-down li:hover{
+opacity: 0.8;
+}
+
+.account-drop-down>li>a>i{
+	margin-right: 10px;
+	font-size: 19px;
+}
+.account-drop-down > hr{
+	width: 120%;
+	margin-left: -40px;
+	border: 0.2px solid rgb(240, 237, 237);
+}
+.account-drop-down button{
+	width: 100%;
+	height: 40px;
+	background-color: #FF9900;
+	color: white;
+	border: none;
+	border-radius: 4px;
+	margin-left: -10px;
+}
+.main-menu>ul>li {
+	display: inline;
+	padding: 20px;
+}
+
+.main-menu>ul>li>a {
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: 600;
+	color: rgb(95, 91, 91);
+	font-family: Arial, Helvetica, sans-serif;
+}
+.main-menu>ul>li>a:hover{
+	color: #FF9900;
+}
+.main-menu>ul>li:active{
+background-color: gainsboro;
+border-radius: 7px;
+}
+.search-bar input {
+	margin-top: 14px;
+	border: 1px solid rgb(206, 201, 201);
+	border-radius: 5px;
+	width: 500px;
+	height: 40px;
+	font-size: 16px;
+	padding-left: 15px;
+	font-weight: 500;
+}
+
+.search-bar button {
+	height: 39px;
+	background-color: #FF9900;
+	border: none;
+	border-radius: 5px;
+	color: white;
+	width: 100px;
+	cursor: pointer;
+}
+.drop-down-icon{
+	font-size: 10px;
+	margin-left: 13px;
+}
