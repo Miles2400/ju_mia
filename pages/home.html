@@ -2,53 +2,67 @@
 <html lang="en">
 
 	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Document</title>
 
+		<!-------Font Awesome---------->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/fontawesome.min.css" integrity="sha512-siarrzI1u3pCqFG2LEzi87McrBmq6Tp7juVsdmGY1Dr8Saw+ZBAzDzrGwX3vgxX1NkioYNCFOVC0GpDPss10zQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/brands.min.css" integrity="sha512-W/zrbCncQnky/EzL+/AYwTtosvrM+YG/V6piQLSe2HuKS6cmbw89kjYkp3tWFn1dkWV7L1ruvJyKbLz73Vlgfg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<!-------Font Awesome---------->
 
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
 
-		<link rel="stylesheet" href="../styles/home.css">
+		<!--------------Google Fonts---------------->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet" />
+		<!--------------Google Fonts---------------->
+
+
+		<!-----------JQuery------------->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/css/lightslider.min.css" />
+		<!-----------JQuery------------->
+
+		<link rel="stylesheet" href="../styles/home.css" />
 	</head>
 
 	<body>
 
-		<div class="container">
+		<!----------HEADER-------------->
+		<div class="ads-gif">
+			<img src="../images/BFEST-Top-strip-desktop.gif" alt="">
+		</div>
+
+		<DIV class="container">
 			<section class="header">
 				<ul>
-					<li class="logo-text"> <a href="#">JUMIA <i class="fa-solid fa-star-of-david"></i></a>
-					</li>
-					<li>
-						<a href="#" class="pay-icon"><i class="fa-solid fa-shield"></i>
-							PAY</a>
-					</li>
-					<li> <a href="#"> <i class="fa-solid fa-utensils"></i> FOOD</a></li>
-					<li> <a href="#"> <i class="fa-solid fa-truck-fast"></i>LOGISTICS</a></li>
+					<li class="logo-text"><a href="#">JUMIA <i class="fa-solid fa-star-of-david"></i></a></li>
+					<li><a href="#" class="pay-icon"><i class="fa-solid fa-shield"></i> PAY</a></li>
+					<li><a href="#"> <i class="fa-solid fa-utensils"></i> FOOD</a></li>
+					<li><a href="#"> <i class="fa-solid fa-truck-fast"></i>LOGISTICS</a></li>
 				</ul>
 			</section>
 
+			<NAV class="main-menu">
 
-			<nav class="main-menu">
 				<div class="logo">
 					<a href="">
-						<img src="../images/main-logo.jpg" alt="" width="140px" height="80px">
+						<img src="../images/main-logo.jpg" alt="" width="140px" height="80px" />
 					</a>
 				</div>
+
 				<div class="search-bar">
-					<input type="search" placeholder="Search products, brands and categories">
+					<input type="search" placeholder="Search products, brands and categories" />
 					<button type="submit">SEARCH</button>
 				</div>
+
 				<ul class="drop-down">
-					<li><a href=""><i class="fa-regular fa-user"></i> Account<i class="fa-solid fa-chevron-down drop-down-icon"></i></a>
+					<li>
+						<a href=""><i class="fa-regular fa-user"></i> Account<i class="fa-solid fa-chevron-down drop-down-icon"></i></a>
 						<ul class="account-drop-down">
 							<li><button>SIGN IN</button></li>
-							<hr>
+							<hr />
 							<li><a href=""><i class="fa-regular fa-user"></i>My Account</a></li>
 							<li><a href=""><i class="fa-solid fa-wallet"></i>Orders</a></li>
 							<li><a href=""><i class="fa-regular fa-heart"></i>Saved items</a></li>
@@ -57,9 +71,199 @@
 					<li><a href=""><i class="fa-regular fa-circle-question"></i> Help<i class="fa-solid fa-chevron-down drop-down-icon"></i></a></li>
 					<li><a href=""><i class="fa-solid fa-cart-arrow-down"></i> Cart</a></li>
 				</ul>
-			</nav>
-		</div>
+			</NAV>
 
+		</DIV>
+		<!----------HEADER-------------->
+
+		<!---------FIRST BANNER SLIDER----------->
+		<SECTION class="first-banner">
+			<div class="service-pages">
+				<div class="service-lists">
+
+					<ul>
+						<li><a href="#"><i class="fa-solid fa-apple-whole"></i>Supermarket</a></li>
+						<li> <a href="#"><i class="fa-solid fa-wand-magic-sparkles"></i> Health & Beauty</a></li>
+						<li> <a href="#"><i class="fa-solid fa-house"></i> Home & Office</a></li>
+						<li> <a href="#"><i class="fa-solid fa-blender-phone"></i>Appliances</a></li>
+						<li> <a href="#"><i class="fa-solid fa-mobile"></i> Phone & tablets</a></li>
+						<li> <a href="#"> <i class="fa-solid fa-desktop"></i>Computing</a></li>
+						<li> <a href="#"><i class="fa-solid fa-radio"></i> Electronics</a></li>
+						<li> <a href="#"><i class="fa-solid fa-shirt"></i> Fashion</a></li>
+						<li> <a href="#"><i class="fa-solid fa-baby"></i> Baby products</a></li>
+						<li> <a href="#"><i class="fa-solid fa-gamepad"></i> Gaming</a></li>
+						<li> <a href="#"> <i class="fa-solid fa-dumbbell"></i>Sporting Goods</a></li>
+						<li> <a href="#"> <i class="fa-solid fa-ellipsis"></i>Other categories</a></li>
+					</ul>
+
+				</div>
+			</div>
+
+			<div class="ads-banner">
+
+				<div class="banner-slide-one">
+					<ul class="adaptive">
+						<li> <a href=""><img src="../images/712x384-jpay.jpg" alt=""></a></li>
+						<li> <a href=""><img src="../images/712x384-TEASING_4TH.gif" alt=""></a></li>
+						<li> <a href=""><img src="../images/712x384.gif" alt=""></a></li>
+						<li> <a href=""><img src="../images/Desktop_Homepage_Slider__712x384.jpg" alt=""></a></li>
+						<li> <a href=""><img src="../images/Slider_.jpg" alt=""></a></li>
+						<li> <a href=""><img src="../images/SX__712x384_phone_dealas.png" alt=""></a></li>
+						<li> <a href=""><img src="../images/theplace_desktopslider.jpg" alt=""></a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="brand-banner">
+				<div class="festive-banner">
+					<img src="../images/300pxx240px.gif" alt="">
+				</div>
+				<div class="sale-banner">
+					<img src="../images/Clearance.gif" alt="">
+				</div>
+			</div>
+
+		</SECTION>
+		<!---------FIRST BANNER SLIDER----------->
+
+
+
+		<SECTION class="first-product-deals-container">
+			<div class="first-deals ">
+				<div><a href=""><img src="../images/phones-tablets_300x240.png" alt=""></a> <span>Phones & Tablets</span> </div>
+				<div><a href=""><img src="../images/generic_300x240.jpg" alt=""></a> <span>Computer Deals</span> </div>
+				<div><a href=""><img src="../images/groceries_300x240v2.png" alt=""></a> <span>Groceries</span> </div>
+				<div><a href=""><img src="../images/5k-store_300x240.png" alt=""></a> <span>#5,000 Store</span> </div>
+				<div><a href=""><img src="../images/televisions_300x240.png" alt=""></a> <span>Televisions</span> </div>
+				<div><a href=""><img src="../images/refrigerators_300x240.png" alt=""></a> <span>Refrigerators</span> </div>
+			</div>
+			<div class="first-deals">
+				<div><a href=""><img src="../images/earphones_300x240.png" alt=""></a> <span>Mobile Accessories</span> </div>
+				<div><a href=""><img src="../images/generator.gif" alt=""></a> <span>Generators</span> </div>
+				<div><a href=""><img src="../images/fashion_300x240.png" alt=""></a> <span>Men's Sneakers</span> </div>
+				<div><a href=""><img src="../images/watches_300x240.png" alt=""></a> <span>Watches</span> </div>
+				<div><a href=""><img src="../images/Clearance.gif" alt=""></a> <span>Clearance Sales</span> </div>
+				<div><a href=""><img src="../images/300pxx240px.gif" alt=""></a> <span>Authencity Guaranteed</span> </div>
+			</div>
+		</SECTION>
+
+		<SECTION class="top-selling-items">
+			<p>Top selling items</p>
+			<ul>
+				<li> <a href=""> <img src="../images/Refurbished.jpg" alt=""> <span>Iphone X 3GB RAM+64GB <br> <b>#188,000</b> <br> <s>#319,600</s> </span></a> </li>
+				<li> <a href=""> <img src="../images/Refurbished.jpg" alt=""> <span>Iphone X 3GB RAM+64GB <br> <b>#188,000</b> <br> <s>#319,600</s> </span></a> </li>
+				<li> <a href=""> <img src="../images/Refurbished.jpg" alt=""> <span>Iphone X 3GB RAM+64GB <br> <b>#188,000</b> <br> <s>#319,600</s> </span></a> </li>
+				<li> <a href=""> <img src="../images/Refurbished.jpg" alt=""> <span>Iphone X 3GB RAM+64GB <br> <b>#188,000</b> <br> <s>#319,600</s> </span></a> </li>
+				<li> <a href=""> <img src="../images/Refurbished.jpg" alt=""> <span>Iphone X 3GB RAM+64GB <br> <b>#188,000</b> <br> <s>#319,600</s> </span></a> </li>
+				<li> <a href=""> <img src="../images/Refurbished.jpg" alt=""> <span>Iphone X 3GB RAM+64GB <br> <b>#188,000</b> <br> <s>#319,600</s> </span></a> </li>
+			</ul>
+		</SECTION>
+
+		<SECTION class="collection-deals">
+			<p>Shop From Our Collections</p>
+			<ul>
+				<li> <a href=""> <img src="../images/phone-deals_300x400.png" alt=""> </a> </li>
+				<li> <a href=""> <img src="../images/fashion-deals_300x400.png" alt=""> </a> </li>
+				<li> <a href=""> <img src="../images/supermarket-deals_300x400.jpg" alt=""> </a> </li>
+				<li> <a href=""> <img src="../images/electronics-deals_300x400.png" alt=""> </a> </li>
+				<li> <a href=""> <img src="../images/appliances-deals_300x400.png" alt=""> </a> </li>
+				<li> <a href=""> <img src="../images/beauty-deals_300x400v2.png" alt=""> </a> </li>
+			</ul>
+		</SECTION>
+
+		<SECTION class="phone-tablet-deals">
+			<p>Phone & Tablet</p>
+			<ul>
+				<li> <a href=""> <img src="../images/android-phones_300x400.png" alt=""> </a> </li>
+				<li> <a href=""> <img src="../images/iphones_300x400.png" alt=""> </a> </li>
+				<li> <a href=""> <img src="../images/note-phones_300x400.png" alt=""> </a> </li>
+				<li> <a href=""> <img src="../images/android-tablets_300x400v2.png" alt=""> </a> </li>
+				<li> <a href=""> <img src="../images/ipads_300x400.png" alt=""> </a> </li>
+				<li> <a href=""> <img src="../images/fold-phones_300x400.png" alt=""> </a> </li>
+			</ul>
+		</SECTION>
+
+		<SECTION class="more-collections">
+			<p>More Collection</p>
+			<ul>
+				<li> <a href=""> <img src="../images/mobile-accessories_300x400.png" alt=""> </a> </li>
+				<li> <a href=""> <img src="../images/computing-deals_300x400.jpg" alt=""> </a> </li>
+				<li> <a href=""> <img src="../images/power-deals_300x400.png" alt=""> </a> </li>
+				<li> <a href=""> <img src="../images/kids-corner_300x400v2.png" alt=""> </a> </li>
+				<li> <a href=""> <img src="../images/fitness-deals_300x400v3.png" alt=""> </a> </li>
+				<li> <a href=""> <img src="../images/gaming-deals_300x400.png" alt=""> </a> </li>
+			</ul>
+		</SECTION>
+
+		<SECTION class="electronic-deals">
+			<p>Electronic Deals</p>
+			<ul>
+				<li> <a href=""> <img src="../images/smart-tvs_300x400.png" alt=""> </a> </li>
+				<li> <a href=""> <img src="../images/condenser-mic_300x400.png" alt=""> </a> </li>
+				<li> <a href=""> <img src="../images/led-tvs_300x400.png" alt=""> </a> </li>
+				<li> <a href=""> <img src="../images/home-theatres_300x400.png" alt=""> </a> </li>
+				<li> <a href=""> <img src="../images/cameras_300x400.png" alt=""> </a> </li>
+				<li> <a href=""> <img src="../images/bluetooth-speakers_300x400.png" alt=""> </a> </li>
+			</ul>
+		</SECTION>
+
+		<SECTION class="second-banner-slide">
+			<ul class="adaptive">
+				<li> <img src="../images/BFEST_TECNO_STORE_MLP.jpg" alt=""> </li>
+				<li> <img src="../images/Brand_calendar_MLP_Slider-updatd.jpg" alt=""> </li>
+				<li> <img src="../images/Brand_calendar_MLP_Slider.jpg" alt=""> </li>
+				<li> <img src="../images/Brand_calendar_MLP_Slider.png" alt=""> </li>
+				<li> <img src="../images/Brand_calendar_MLP_Slider2.jpg" alt=""> </li>
+				<li> <img src="../images/BrandcalendarMLPSlider.jpg" alt=""> </li>
+				<li> <img src="../images/BrandcalendarMLPSlider2.jpg" alt=""> </li>
+			</ul>
+		</SECTION>
+
+		<SECTION class="official-stores">
+			<p>Official Stores</p>
+			<div class="official-store-deals">
+				<div> <img src="../images/adidas_260x144_V2.png" alt=""> </div>
+				<div> <img src="../images/Defacto.jpg" alt=""> </div>
+				<div> <img src="../images/nivea_260x144.png" alt=""> </div>
+				<div> <img src="../images/xiaomi_260x144.png" alt=""> </div>
+				<div> <img src="../images/oraimo_260x144.png" alt=""> </div>
+				<div> <img src="../images/diageo_260x144.png" alt=""> </div>
+				<div> <img src="../images/Pernod_ricard.png" alt=""> </div>
+				<div> <img src="../images/tecno_260x144.png" alt=""> </div>
+				<div> <img src="../images/infinix_260x144v2.png" alt=""> </div>
+				<div> <img src="../images/itel-phones_260x144.png" alt=""> </div>
+				<div> <img src="../images/bluetti.jpg" alt=""> </div>
+				<div> <img src="../images/haier-thermocool_260x144.png" alt=""> </div>
+			</div>
+		</SECTION>
+
+		<SECTION class="pernod-official-store">
+			<p>Pernod Official Store</p>
+			<div class="pernod-deals">
+				<div> <a href=""> <img src="../images/1 (1).jpg" alt=""> </a></div>
+				<div> <a href=""> <img src="../images/1 (2).jpg" alt=""> </a></div>
+				<div> <a href=""> <img src="../images/1 (3).jpg" alt=""> </a></div>
+				<div> <a href=""> <img src="../images/1.jpg" alt=""> </a></div>
+			</div>
+		</SECTION>
+
+		<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/js/lightslider.min.js">
+		</script>
+		<script>
+			$(document).ready(function () {
+				$('.adaptive').lightSlider({
+					adaptiveHeight: true,
+					item: 1,
+					auto: true,
+					slideMargin: 0,
+					pauseOnHover: true,
+					loop: true
+				});
+			});
+		</script>
+
+		<script type="module" src="/scripts/home.js"></script>
 	</body>
 
 </html>

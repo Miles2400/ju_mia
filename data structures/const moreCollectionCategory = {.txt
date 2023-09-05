@@ -1,0 +1,15 @@
+const moreCollectionCategory = {
+  categoryName: "More Collection",
+  images: [
+    { imageSrc: "../images/mobile-accessories_300x400.png", link: "" },
+    { imageSrc: "../images/computing-deals_300x400.jpg", link: "" },
+    { imageSrc: "../images/power-deals_300x400.png", link: "" },
+    { imageSrc: "../images/kids-corner_300x400v2.png", link: "" },
+    { imageSrc: "../images/fitness-deals_300x400v3.png", link: "" },
+    { imageSrc: "../images/gaming-deals_300x400.png", link: "" }
+  ]
+};
+
+// You can then access the data for this category like this:
+console.log(moreCollectionCategory.categoryName); // Outputs: More Collection
+console.log(moreCollectionCategory.images[0].imageSrc); // Outputs: ../images/mobile-accessories_300x400.png

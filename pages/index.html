@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/css/lightslider.min.css" />
+</head>
+
+<style>
+	.banner-slide-one{
+		width: 730px;
+	}
+</style>
+<body>
+				<div class="banner-slide-one">
+					<ul id="adaptive">
+						<li> <img src="../images/712x384-jpay.jpg" alt=""></li>
+						<li> <img src="../images/712x384-TEASING_4TH.gif" alt=""></li>
+						<li> <img src="../images/712x384.gif" alt=""></li>
+						<li> <img src="../images/Desktop_Homepage_Slider__712x384.jpg" alt=""></li>
+						<li> <img src="../images/Slider_.jpg" alt=""></li>
+						<li> <img src="../images/SX__712x384_phone_dealas.png" alt=""></li>
+						<li> <img src="../images/theplace_desktopslider.jpg" alt=""></li>
+					</ul>
+				</div>
+
+						<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+						<script src="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/js/lightslider.min.js">
+						</script>
+						<script>
+							$(document).ready(function () {
+								$('#adaptive').lightSlider({
+									adaptiveHeight: true,
+									item: 1,
+									auto:true,
+									slideMargin: 0,
+									loop: true
+								});
+							});
+						</script>
+</body>
+</html>
