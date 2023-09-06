@@ -1,0 +1,42 @@
+************************************* Invoked: Wed Sep 6 19:26:44 2023
+[0] Arguments: c:\Users\piusj\Downloads\msys2-x86_64-20230526.exe, -std=c++98, -m64, -Wp,-v, -E, -dM, -x, c++, nul
+[11] Operations sanity check succeeded.
+[176] Using metadata cache from "C:/Users/piusj/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[176] Found 0 cached items.
+[177] Language: en-US
+[177] Script file does not exist.
+************************************* Invoked: Wed Sep 6 19:26:44 2023
+[0] Arguments: c:\Users\piusj\Downloads\msys2-x86_64-20230526.exe, -std=c++98, -m32, -Wp,-v, -E, -dM, -x, c++, nul
+[17] Operations sanity check succeeded.
+[147] Using metadata cache from "C:/Users/piusj/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[147] Found 0 cached items.
+[147] Language: en-US
+[148] Script file does not exist.
+************************************* Invoked: Wed Sep 6 19:26:45 2023
+[0] Arguments: c:\Users\piusj\Downloads\msys2-x86_64-20230526.exe, -std=c++98, -Wp,-v, -E, -dM, -x, c++, nul
+[15] Operations sanity check succeeded.
+[156] Using metadata cache from "C:/Users/piusj/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[156] Found 0 cached items.
+[157] Language: en-US
+[157] Script file does not exist.
+************************************* Invoked: Wed Sep 6 19:27:46 2023
+[0] Arguments: c:\Users\piusj\Downloads\msys2-x86_64-20230526.exe, -std=c17, -m64, -Wp,-v, -E, -dM, -x, c, nul
+[7] Operations sanity check succeeded.
+[115] Using metadata cache from "C:/Users/piusj/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[115] Found 0 cached items.
+[115] Language: en-US
+[115] Script file does not exist.
+************************************* Invoked: Wed Sep 6 19:27:47 2023
+[0] Arguments: c:\Users\piusj\Downloads\msys2-x86_64-20230526.exe, -std=c17, -m32, -Wp,-v, -E, -dM, -x, c, nul
+[8] Operations sanity check succeeded.
+[114] Using metadata cache from "C:/Users/piusj/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[114] Found 0 cached items.
+[114] Language: en-US
+[114] Script file does not exist.
+************************************* Invoked: Wed Sep 6 19:27:47 2023
+[0] Arguments: c:\Users\piusj\Downloads\msys2-x86_64-20230526.exe, -std=c17, -Wp,-v, -E, -dM, -x, c, nul
+[7] Operations sanity check succeeded.
+[227] Using metadata cache from "C:/Users/piusj/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[227] Found 0 cached items.
+[227] Language: en-US
+[227] Script file does not exist.
